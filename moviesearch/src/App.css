@@ -1,0 +1,193 @@
+.app-container {
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+#rectangle {
+  width: 798px;
+  height: 134px;
+  padding: 2px;
+  background-color: #f2f2f2;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+#filmtitle {
+  width: 500px;
+  height: 500px;
+  padding: 2px;
+  border: 1px solid #797979;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  font-family: "ArialMT", "Arial", sans-serif;
+  color: #000000;
+  text-align: left;
+  margin-right: 10px;
+}
+
+#all-sites {
+  width: 247px;
+  height: 40px;
+  padding: 2px;
+  border: 1px solid #797979;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  font-family: "ArialMT", "Arial", sans-serif;
+  color: #000000;
+  margin-right: 10px;
+}
+
+#search {
+  width: 140px;
+  height: 40px;
+  padding: 2px;
+  border-radius: 5px;
+  border: 1px solid #797979;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  font-family: "Arial-BoldMT", "Arial Bold", "Arial", sans-serif;
+  font-weight: 700;
+  color: #333333;
+  text-align: center;
+  line-height: normal;
+}
+
+#moviebox{
+  Width: '100px'; 
+  Height: '100px'; 
+  /* objectFit: 'contain'; */
+}
+
+
+
+.tHeader {
+  /* border-width: 10px; */
+  position: inherit;
+  padding: 50px; 
+  background-color: #f0f0f0;
+  /* text-align: center; */
+}
+
+.centered-div {
+  width: 80%; /* Adjust the width as needed */
+  max-width: 800px; /* Maximum width to prevent it from getting too wide */
+  margin: 100px auto; /* Center horizontally and add padding on top */
+  padding: 20px; /* Padding inside the div */
+  /* background-color: #f0f0f0; */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  /* text-align: center; Center text inside the div */
+}
+
+.tablefilter {
+  width: 100%;
+  /* border-collapse: collapse; Collapses borders to avoid double borders */
+  border: white;
+}
+
+.tablefilter tr {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  margin-bottom: 10px; /* Space between rows */
+}
+
+.tablefilter td {
+  /* border: 1px solid #ddd; */ /* Remove or comment out this line */
+  padding: 10px; /* Padding inside table cells */
+  text-align: center; /* Center text inside cells */
+}
+
+.filmtitle {
+  width: 200px; /* Full width for the input */
+  padding: 10px; /* Padding inside the input */
+  border: 1px solid #ddd; /* Border around the input */
+  border-radius: 4px; /* Rounded corners for the input */
+}
+
+select {
+  width: 200px; /* Full width for the select element */
+  padding: 10px; /* Padding inside the select */
+  border: 1px solid #ddd; /* Border around the select */
+  border-radius: 4px; /* Rounded corners for the select */
+}
+
+button {
+  padding: 10px 20px; /* Padding inside the button */
+  border: none; /* Remove border */
+  background-color: #007bff; /* Button background color */
+  color: white; /* Button text color */
+  border-radius: 4px; /* Rounded corners for the button */
+  cursor: pointer; /* Cursor changes to pointer on hover */
+}
+
+#1-result-s {
+  width: 100%;
+  height: 18px;
+  background-color: rgba(255, 255, 255, 0);
+  box-sizing: border-box;
+  font-family: "ArialMT", "Arial", sans-serif;
+  color: #333333;
+  text-align: left;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.result-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.result-item img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  border: 1px solid #ccc;
+}
+
+.result-item p {
+  margin: 0;
+}
