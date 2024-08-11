@@ -11,7 +11,7 @@ Description: This project has a webcrawler to generate movies in "https://real-f
 
 1. Cloning the repository:
     ```sh
-    git clone https://github.com/JARevilla/Movies/tree/main/moviesAPI
+    git clone https://github.com/JARevilla/Movies/
     cd moviesAPI
     ```
 2. Create and activate a virtual environment:
