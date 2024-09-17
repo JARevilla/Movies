@@ -16,8 +16,9 @@ Make sure you have Docker and Docker Compose installed on your machine. You can 
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+   git clone https://github.com/JARevilla/Movies/
+   cd moviesearch
+   
    ```
    
 2. Build and run the Docker container:
