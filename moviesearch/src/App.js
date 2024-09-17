@@ -20,7 +20,7 @@ const App = () => {
       }
 
 
-      const response = await axios.get('http://127.0.0.1:8000/moviesUI/getMovie/', { params });
+      const response = await axios.get('http://127.0.0.1:8000/movies/getMovie/', { params });
       setData(response.data);
 
       const uniqueSitenameOptions = Array.from(new Set(response.data.map(item => item.sitename)));

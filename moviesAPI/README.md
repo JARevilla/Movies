@@ -2,7 +2,7 @@
 
 Description: This project has a webcrawler to generate movies in "https://real-fmovies.show/" and expose an API endpoint to view generated movies.
 
-- `moviesUI` - To access available web services.
+- `movies` - To access available web services.
 - `Database` - Builtin djangjo database using sqlite3.
 - `BeautifulSoup` - Used for webcrawling.
 - `Containerization` - Docker setup for easy deployment.
@@ -35,9 +35,9 @@ Description: This project has a webcrawler to generate movies in "https://real-f
    
 ## API Endpoints
 
-- `GET /moviesUI/getMovie/?title=` - provide title of the movie; (Optional parameter: sitename) (Used in react.js project for User Interface)
-- `POST /moviesUI/saveMovie/` - Save if only one movie
-- `POST /moviesUI/bulkMovie/` - Save if multiple movie (Used by webcrawler)
+- `GET /movies/getMovie/?title=` - provide title of the movie; (Optional parameter: sitename) (Used in react.js project for User Interface)
+- `POST /movies/saveMovie/` - Save if only one movie
+- `POST /movies/bulkMovie/` - Save if multiple movie (Used by webcrawler)
 
 ## Containerization
 
